@@ -1,7 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
-@import 'body.scss';
-@import 'nav.scss';
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap");
+@import "body.scss";
+@import "nav.scss";
 
+.container {
+  width: 100%;
+  height: 640px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/city.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+    height: 80%;
+    
+    h1{
+      text-align: left;
+      max-width: 40%;
+      font-size: 36px;
+      color: white;
+    }
 
+    h4{
+      text-align: left;
+      font-size: 16px;
+      max-width: 60%;
+      color:white;
+      opacity: 0.8;
+      line-height: 25px;
+    }
+    .divider {
+      width: 84px;
+      height: 3px;
+      border-radius: 20px;
+      opacity: 0.67;
+      background: white;
+    }
 
+    .bigger-logo {
+      width: 247px;
+      height: 108px;
+    }
+    button{
+      width:120px;
+      padding: 10px ;
+      background: transparent;
+      border: 2px solid white;
+      color:white;
+    }
+  }
+  .right-side{
+    height: 80%;
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
