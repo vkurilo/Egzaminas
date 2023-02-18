@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: #1C1C1C;
+    width: 100%;
+    position: fixed;
+    top:0;
+    height:80px;
+  
+    .nav-links{
+      display: flex;
+      
+      a{ 
+        color:#FFFFFF;
+        padding: 0 44px;
+        opacity: 69%;
+        
+      }
+    }
+  }
