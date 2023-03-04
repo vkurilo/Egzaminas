@@ -1,0 +1,194 @@
+.section-3 {
+    background-color: #6696e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    gap: 40px;
+  
+    .info-1 {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+  
+      h2 {
+        color: white;
+        font-size: 36px;
+      }
+      p {
+        color: white;
+        font-size: 14px;
+        opacity: 0.7;
+      }
+      .divider {
+        width: 64px;
+        height: 2px;
+        border-radius: 20px;
+        opacity: 0.8;
+        background: #41d395;
+        margin: 20px 0;
+      }
+    }
+  
+    .container-1 {
+      width: 1400px;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+     flex-wrap: wrap;
+      .wrapper {
+  
+          display: flex;
+          justify-content: center;
+          gap:40px;
+          
+        .price-1 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background: white;
+          height: 500px;
+          width: 350px;
+          background: white;
+          border-radius: 20px;
+          .divider {
+              width: 100%;
+              height: 14px;
+              background: #41D395;
+            }
+          
+          padding-top: 60px;
+          background: #6696e2;
+          .info{
+              background: #333333;
+              width: 100%;
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              border-radius: 5px 5px 0 0;
+              gap:10px;
+              padding-bottom: 10px;
+              h3{
+                  font-size: 20px;
+                  padding: 10px;
+                  opacity: 0.8;
+                  font-weight: 300;
+  
+              }
+              
+                  h2{
+                      font-size: 94px;
+                      font-weight: 300;
+                      span{
+                          font-size: 35px; 
+                      }
+                  }
+              p{
+                  opacity:0.6;
+                  font-size: 14px;
+              }
+          }
+  
+          .info-about-purchase{
+              text-align: center;
+              height: 97%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              font-size: 14px;
+              background-color: white;
+              width: 100%;
+              border-radius: 0 0 5px 5px;
+              h3{
+                  padding: 10px 0;
+                  color:#86878B;
+                  font-size: 14px;
+                  font-weight: 300;
+              }
+          }
+  
+  
+        }
+        .price-2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background: white;
+          height: 500px;
+          width: 350px;
+          border-radius: 5px;
+  
+          .divider-1 {
+              width: 100%;
+              height: 40px;
+              background: #41D395;
+             
+              h4{
+                  padding: 10px 0;
+                  text-align: center;
+                  color: white;
+                  font-weight: 300;
+                  opacity: 0.9;
+                  font-size: 14px;
+              }
+            }
+          
+  
+          .info{
+              background: #333333;
+              width: 100%;
+              color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              border-radius: 5px 5px 0 0;
+              gap:10px;
+              padding-bottom: 10px;
+              h3{
+                  font-size: 20px;
+                  padding: 10px;
+                  opacity: 0.8;
+                  font-weight: 300;
+  
+              }
+              
+                  h2{
+                      font-size: 94px;
+                      font-weight: 300;
+                      span{
+                          font-size: 35px; 
+                      }
+                  }
+              p{
+                  opacity:0.6;
+                  font-size: 14px;
+              }
+          }
+  
+          .info-about-purchase{
+              text-align: center;
+              height: 97%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              font-size: 14px;
+              h3{
+                  padding: 10px 0;
+                  color:#86878B;
+                  font-size: 14px;
+                  font-weight: 300;
+              }
+          }
+  
+  
+        }
+      }
+    }
+  }
