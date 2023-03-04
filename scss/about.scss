@@ -9,17 +9,18 @@
 
     .logo-1{
         height: 70%;
-        width: 70%;
+        width: 50%;
         background-image: url('../images/bigger-logo.png');
         background-repeat: no-repeat;
         background-position:center ;
-
+        padding-right: 200px;
     }
     .section-1-right{
         display: flex;
         flex-direction: column;
         gap:20px;
         height:100%;
+        width: 50%;
        
 
 
