@@ -100,7 +100,7 @@
           h3{
             font-size: 20px;
             text-align: left;
-            
+           
           }
           input {
             border: none;
@@ -135,26 +135,63 @@
             text-align: left;
             width: 100%;
             font-size: 20px;
+            padding-bottom: 10px;
           }
-          .radio-buttons {
-            padding: 10px;
-            font-size: 10px;
+          .radio-buttons{
             display: flex;
-            gap: 20px;
-            text-align: left;
-          }
-          div {
-            display: flex;
-            gap: 5px;
-  
-            input[type="radio"] {
-              accent-color: #41D395;
-              border: #41D395;
-              &:checked + label {
-                font-weight: 600;
-              }
+            
+            
+            gap:20px;
+            div{
+                display: flex;
+                align-items: center;
+                
+                gap:5px;
+                label{
+                    font-size: 9px;
+
+                }
+                input[type='radio']{
+                    appearance: none;
+                
+                    width:13px;
+                    height: 13px;
+                    border: 1px solid #41D395;
+                
+                    border-radius: 20px;
+                
+                    position: relative;
+                    top:4px;
+                   
+                    &:checked + label{
+                        font-weight: 600;
+                    }
+                }
+                
+                input[type='radio']::before{
+                    content: "";
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    right: 0;
+                    bottom: 0;
+                    width: 5px;
+                    height: 5px;
+                    background:#41D395;
+                    border-radius: 100%;
+                    margin: auto;
+                    transform: scale(0);
+                    transition: 0.3s;
+                }
+                
+                
+                input[type='radio']:checked::before{
+                    transform: scale(1);
+                    
+                }
+                
             }
-          }
+        }
         }
       }
       button{
