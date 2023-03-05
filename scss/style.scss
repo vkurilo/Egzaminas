@@ -9,35 +9,5 @@
 @import 'pricing';
 @import 'reviews';
 @import 'contact';
+@import 'social-bottom';
 
-
-.section-6{
-    height:125px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: black;
-
-    h3{
-        color: white;
-        font-size: 18px;
-        opacity: 0.8;
-        margin-right: 120px;
-        font-weight: 300;
-    }
-
-    .social-bottom{
-        width: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin:0 120px;
-       
-        .other-logos, .logos-size{
-            height: 20px;
-        }
-        .logos-size{
-            transform: rotate(45deg);
-        }
-    }
-}
