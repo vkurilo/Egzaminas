@@ -8,22 +8,41 @@
   <title>Cheshire County</title>
   <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="app/css/style.css">
 </head>
 
 <body>
   <nav>
-   <a href="#"><img src="./app/images/logo.svg" alt=""></a> 
+    
 
     <div class="nav-links">
+      <a href="#"><img src="./app/images/logo.svg" alt=""></a>
       <a href="#features">Features</a>
       <a href="#about">About</a>
       <a href="#prices">Pricing</a>
       <a href="#reviews">Reviews</a>
       <a href="#contacts">Contact</a>
     </div>
-
-  </nav>
+    <section class="top-nav">
+      <div>
+        <a href="#"><img src="./app/images/logo.svg" alt=""></a> 
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+      <ul class="menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#prices">Pricing</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li> <a href="#contacts">Contact</a></li>
+      </ul>
+    </section>
+  
+</nav>
   <header class="container">
     <div class="left-side">
       <img src="./app/images/bigger-logo.png" alt="bigger-logo" class="bigger-logo">
@@ -422,6 +441,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="swiper.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
