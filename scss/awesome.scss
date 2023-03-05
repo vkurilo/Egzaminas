@@ -5,6 +5,7 @@
     width: 100%;
     height:600px;
     gap:20px;
+    overflow: hidden;
 
     .info-1{
         display: flex;
@@ -44,12 +45,13 @@
         flex-wrap: wrap;
         .info-2-inside{
             display: flex;
-            justify-content: center;
+            
             align-items: center;
             flex-direction: column;
             width: 30%;
             height: 200px;
             gap:20px;
+            
             h3{
                 font-size: 20px;
                
@@ -64,7 +66,7 @@
                 height: 50px;
                 width: 50px;
                 border: 1px solid #E27866;
-                border-radius: 60px;
+                border-radius: 50px;
                 display: flex;
                 
                 align-items: center;
@@ -73,6 +75,85 @@
             }
             img{
                 height: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1037px){
+    .section-2{
+        .info-2{
+            .info-2-inside{
+                h3{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+@media (max-width: 1267px){
+    .section-2{
+        .info-2{
+            .info-2-inside{
+                gap:10px;
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width: 900px){
+    .section-2{
+        gap:0;
+        .info-2{
+            height:300px;
+            .info-2-inside{
+                height: 250px;
+                padding-top: 20px;
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .section-2{
+        height: 800px;
+        .info-1{
+            h2{
+                font-size: 25px;
+            }
+            p{font-size: 12px;
+            }
+        }
+        .info-2{
+            flex-direction: column;
+            height:700px;
+            .info-2-inside{
+                height: 300px;
+                text-align: center;
+                p{
+                    height: 100%;
+                    max-width: 100%;
+                }
+                .logo-container{
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 100px;
+                }
+               img{
+                height: 18px;
+               }
             }
         }
     }
