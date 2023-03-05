@@ -103,7 +103,13 @@
   }
 }
 
-
+@media (max-width: 1436px){
+  .section-4{
+      .swiper{
+          width:80%;
+      }
+  }
+}
 
 @media (max-width: 1300px){
     .section-4{
