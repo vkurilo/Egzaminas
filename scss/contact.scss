@@ -61,17 +61,16 @@
 
             .radio-buttons{
                 display: flex;
-                
-                
                 gap:20px;
                 div{
                     display: flex;
                     align-items: center;
-                    
+                    justify-content: center;
+                    height: 10px;
                     gap:5px;
                     label{
                         font-size: 9px;
-
+                        padding-top:8px;
                     }
                     input[type='radio']{
                         appearance: none;
